@@ -26,8 +26,8 @@ function fareDoubler(x) {
         return x*3
     }
 //
-function selectDifferentDrivers(a = []){
-
+function selectDifferentDrivers(arrayOfDrivers, returnFirstTwoDrivers){
+    return returnFirstTwoDrivers(arrayOfDrivers)
 }
 
 //
